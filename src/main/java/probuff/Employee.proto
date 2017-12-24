@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+
+message Employee {
+  
+  required string name = 1;
+  required int32 id = 2;
+  optional string office = 3;
+
+  
+}
